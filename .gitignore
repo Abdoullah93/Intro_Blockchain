@@ -12,8 +12,9 @@
 
 # ─── PDFs compilés — ignorés par défaut ──────────────────────
 # Utilisez : git add -f <chemin>.pdf  pour en sélectionner un
-*.pdf
+
 *.tex
+
 
 # ─── Artefacts LaTeX / pdflatex ──────────────────────────────
 *.aux
@@ -116,3 +117,9 @@ _shared_preamble.tex
 
 
 cours/Plan de Cours Blockchain Détaillé et Pratique.txt
+correction/
+cours/slides/presentation1_naivechain.pdf
+cours/slides/presentation2_naivecoin.pdf
+ECYB I1 BLCE838 Blockchain-2.pdf
+cours/td/td1_naivechain.pdf
+cours/td/td2_naivecoin.pdf
