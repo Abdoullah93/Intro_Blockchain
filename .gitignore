@@ -1,0 +1,118 @@
+# ══════════════════════════════════════════════════════════════
+# .gitignore — Blockchain M1 — EPSI Auxerre
+# ══════════════════════════════════════════════════════════════
+#
+# Stratégie : tout ce qui est généré est ignoré.
+# Pour forcer l'ajout d'un PDF spécifique au dépôt :
+#
+#   git add -f cours/slides/presentation3_tps.pdf
+#   git add -f tps/tp1_simulation_blockchain/tp1_enonce.pdf
+#
+# ══════════════════════════════════════════════════════════════
+
+# ─── PDFs compilés — ignorés par défaut ──────────────────────
+# Utilisez : git add -f <chemin>.pdf  pour en sélectionner un
+*.pdf
+*.tex
+
+# ─── Artefacts LaTeX / pdflatex ──────────────────────────────
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex\(busy\)
+
+# Beamer
+*.nav
+*.snm
+*.vrb
+
+# BibTeX / Biber
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# Index / glossaires
+*.idx
+*.ind
+*.ilg
+*.glo
+*.gls
+*.glg
+
+# Fonts bitmap générées par pdflatex/dvips
+*.gf
+*.600gf
+*.600pk
+*.tfm
+*.pk
+
+# Autres sorties intermédiaires
+*.dvi
+*.xdv
+*.ps
+
+# ─── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ─── Système d'exploitation ──────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ─── Éditeurs & IDEs ─────────────────────────────────────────
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Vim / Emacs
+*.swp
+*.swo
+*.swn
+*.bak
+\#*\#
+.\#*
+
+# Texmaker / TeXstudio
+*.tmb
+
+# ─── Divers ──────────────────────────────────────────────────
+# Fichiers temporaires partagés LaTeX
+_shared_preamble.tex
+
+
+cours/Plan de Cours Blockchain Détaillé et Pratique.txt
